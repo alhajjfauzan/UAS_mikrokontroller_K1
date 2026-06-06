@@ -2,8 +2,8 @@
 # Anggota Kelompok
 1. Rifqi Ramadhan - 2309106007
 2. Al Hajj Fauzan - 2309106019
-3. Muhammad Guntur - Adyatma 2309106023
-4. Muhammad Shandy - Alfarizal 2309106106
+3. Muhammad Guntur Adyatma - 2309106023
+4. Muhammad Shandy Alfarizal - 2309106106
 
 # SMART PARKING GATE
   Sebuah prototipe Smart Parking Gate System berbasis IoT menggunakan mikrokontroler ESP32 DevKit V1 beserta sensor Ultrasonik HC SR04 dan PIR AM312 untuk mendeteksi kendaraan secara real time. Sistem ini menggunakan motor servo sebagai penggerak palang, layar OLED sebagai pemantau lokal, serta potensiometer untuk beralih instan di antara tiga mode operasional yaitu Manual TUTUP pada kisaran 0% sampai 30% dengan fitur anti jepit, AUTO pada 30% sampai 70% secara otomatis lewat sensor, dan Manual BUKA pada 70% sampai 100% tanpa batas waktu.
