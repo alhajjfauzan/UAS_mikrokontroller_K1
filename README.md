@@ -1,4 +1,5 @@
 # micro_K1
 
 Sebuah prototipe Smart Parking Gate System atau sistem palang parkir pintar berbasis Internet of Things yang dikendalikan oleh mikrokontroler ESP32 DevKit V1. Sistem ini mengintegrasikan sensor ganda yaitu sensor Ultrasonik HC SR04 dan PIR AM312 untuk mendeteksi keberadaan kendaraan secara real time yang dipadukan dengan motor servo sebagai penggerak palang otomatis serta layar OLED 128x64 untuk antarmuka monitoring lokal. Pengoperasian sistem ini didukung oleh komponen penunjang seperti LED merah dan hijau, buzzer, serta potensiometer yang berfungsi sebagai kontroler untuk memindahkan mode operasional secara instan tanpa delay.
+
 Mode operasional tersebut terbagi menjadi tiga kondisi berdasarkan putaran potensiometer, yaitu Mode Manual TUTUP pada kisaran 0% sampai 30% dengan fitur keamanan anti jepit dan LED merah aktif, Mode AUTO pada kisaran 30% sampai 70% yang mengandalkan pembacaan sensor secara otomatis sepenuhnya, serta Mode Manual BUKA pada kisaran 70% sampai 100% yang membuat palang terbuka penuh tanpa batas waktu dengan indikator LED hijau aktif.
